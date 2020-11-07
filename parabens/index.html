@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+        content="width=device-width, 
+            initial-scale=1.0, 
+            minimum-scale=1.0,
+            maximum-scale=1.0,
+            user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./animations.css">
+    <script src="./scripts.js"></script>
+    <title>Feliz aniversário</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="titles">
+                <h1 class="title">Aléxia,</h1>
+                <h2 class="title-alt">Feliz aniversário!</h2>
+            </div>
+        </header>
+
+        <div class="gift-area hidden">
+            <div class="gift" onclick="openGift()">
+                <img src="./img/gift/back.svg" alt="Presente" class="back">
+                <div class="card">
+                    <div class="card-content">
+                        [Texto do cartão]
+                    </div>
+                </div>
+                <img class="foto gift-content hidden" src="./img/foto.png" alt="Foto">
+                <img src="./img/gift/front.svg" alt="Presente" class="front">
+                <img src="./img/gift/cover.svg" alt="Presente" class="cover">
+            </div>
+            
+            <div class="gift-subtitle">
+                <p class="subtitle">
+                    Que tal abrir seu presente?
+                </p>
+                <p class="subtitle secondary">
+                    (É só clicar nele)
+                </p>
+            </div>
+            
+            <div class="card-subtitle hidden">
+                <p class="subtitle">
+                    Pronta pra continuar?
+                </p>
+                <p class="subtitle secondary">
+                    (É só clicar no cartão)
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

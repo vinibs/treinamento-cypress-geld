@@ -1,0 +1,35 @@
+@keyframes fadeout {
+    0% {
+        display: block;
+        opacity: 1;
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        display: none;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        display: block;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+.fadeout {
+    animation: fadeout .5s forwards
+}
+
+.fadein {
+    animation: fadein .5s forwards
+}

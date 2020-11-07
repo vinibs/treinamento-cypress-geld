@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento Cypress - Geld</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/animacoes.css">
+</head>
+<body>
+    <form action="#" id="form-cypress">
+        <h1>Treinamento Cypress</h1>
+      
+        <h3>Olá, vamos praticar?</h3>
+
+        <section id="section-pessoa">
+            <label for="pessoa" id="label-pessoa">
+                Quem está praticando Cypress?
+            </label>
+            <select name="pessoa" id="pessoa">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="Aléxia">Aléxia</option>
+                <option value="Anderson">Anderson</option>
+                <option value="Gabriel">Gabriel</option>
+                <option value="Guilherme">Guilherme</option>
+                <option value="Gustavo">Gustavo</option>
+                <option value="Laisa">Laisa</option>
+                <option value="Magnum">Magnum</option>
+                <option value="Rafael">Rafael</option>
+                <option value="Vinicius">Vinicius</option>
+            </select>
+        </section>
+
+        <section id="section-data-nascimento">
+            <label for="data-nascimento" id="label-data-nascimento">
+                Qual a data de nascimento?
+            </label>
+            <input type="date" name="data-nascimento" id="data-nascimento" autocomplete="off">
+        </section>
+
+        <section id="section-funcao">
+            <label for="funcao" id="label-funcao">
+                Qual a sua função na equipe Geld?
+            </label>
+            <input type="text" name="funcao" id="funcao" autocomplete="off">
+        </section>
+        
+        <section id="section-botao">
+            <button id="botao-continuar" type="button" disabled>Continuar</button>
+        </section>
+    </form>
+
+    <section id="resultados" class="hidden">
+        <h1>Resumo individual</h1>
+
+        <p>
+            Olá, <strong id="nome">...</strong>!
+        </p>
+        <p>
+            Quer dizer então que você nasceu em <strong id="data">...</strong> e, hoje, está
+            com <strong id="idade">...</strong> anos?! 
+        </p>
+        <p>
+            Atualmente, está na equipe Geld atuando com/como 
+            <strong id="atuacao">...</strong>. Interessante. 
+        </p>
+        <p>
+            É muito bom ter você na equipe!
+        </p>
+    </section>
+
+    <script src="./js/home.js"></script>
+</body>
+</html>

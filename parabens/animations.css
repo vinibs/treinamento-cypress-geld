@@ -1,0 +1,207 @@
+@keyframes colar-show {
+    0% {
+        left: 50%;
+        opacity: 0;
+        top: calc(50%);
+        transform: translate(-50%, -60%);
+        width: 320px;
+    }
+    50% {
+        left: 50%;
+        opacity: 1;
+        top: calc(50%);
+        transform: translate(-50%, -60%);
+        width: 320px;
+    }
+    100% {
+        opacity: 1;
+        left: 100%;
+        top: 85px;
+        transform: rotateZ(20deg) translate(-170px, 0);
+        width: 160px;
+    }
+}
+
+
+@keyframes title-show {
+    0% {
+        margin-top: -30px;
+        opacity: 0;
+    }
+    100% {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes gift-show {
+    0% {
+        display: block;
+        top: 30px;
+        opacity: 0;
+    }
+    100% {
+        display: block;
+        top: 0;
+        opacity: 1;
+    }
+}
+
+
+@keyframes gift-open {
+    0% {
+        opacity: 1;
+        margin: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        margin-top: -130px;
+    }
+}
+
+@keyframes gift-box-hide {
+    0% {
+        margin-top: 0;
+        opacity: 1;
+    }
+    100% {
+        margin-top: 60px;
+        opacity: 0;
+    }
+}
+
+
+@keyframes gift-card-show {
+    0% {
+        border-radius: 3px;
+        color: transparent;
+        left: 30%;
+        height: 30px;
+        opacity: 1;
+        top: 60%;
+        transform: rotate(80deg);
+        width: 50px;
+        z-index: 2;
+    }
+    40% {
+        border-radius: 5px;
+        color: transparent;
+        left: 40%;
+        height: 42px;
+        top: 10%;
+        transform: rotate(30deg);
+        width: 70px;
+        box-shadow: none;
+        z-index: 2;
+    }
+    80% {
+        border-radius: 15px;
+        box-shadow: 0 0px 40px rgba(0,0,0,0.4);
+        color:transparent;
+        height: calc(90vw / 5 * 3);
+        opacity: 1;
+        text-align: center;
+        top: 22%;
+        transform: rotate(0deg);
+        width: 90vw;
+        z-index: 11;
+    }
+    100% {
+        border-radius: 15px;
+        box-shadow: 0 0px 40px rgba(0,0,0,0.4);
+        color: rgb(90,90,90);
+        height: calc(90vw / 5 * 3);
+        opacity: 1;
+        text-align: center;
+        top: 22%;
+        transform: rotate(0deg);
+        width: 90vw;
+        z-index: 11;
+    }
+}
+
+@keyframes gift-card-hide {
+    0% {
+        border-radius: 15px;
+        box-shadow: 0 0px 40px rgba(0,0,0,0.3);
+        opacity: 1;
+        padding: 15px;
+        text-align: center;
+        top: 22%;
+        opacity: 1;
+        z-index: 11;
+    }
+    100% {
+        border-radius: 15px;
+        box-shadow: 0 0px 40px rgba(0,0,0,0.3);
+        color: transparent;
+        padding: 15px;
+        text-align: center;
+        top: calc(22% + 60px);
+        opacity: 0;
+        z-index: 1;
+    }
+}
+
+@keyframes gift-content-open {
+    0% {
+        height: 80px;
+        opacity: 1;
+        width: auto;
+        z-index: 2;
+    }
+    100% {
+        background: rgb(0,0,0);
+        box-shadow: none;
+        height: 430px;
+        opacity: 1;
+        width: auto;
+        z-index: 11;
+    }
+}
+
+@keyframes video-show {
+    0% {
+        opacity: 0;
+        z-index: -1;
+    }
+    100% {
+        opacity: 1;
+        z-index: 12;
+    }
+}
+
+@keyframes subtitle-show {
+    0% {
+        opacity: 0;
+        margin-top: 10px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+
+@keyframes show {
+    0% {
+        display: block;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        display: block;
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
